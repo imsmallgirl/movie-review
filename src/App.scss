@@ -1,0 +1,44 @@
+.movie-review{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px;
+}
+
+.popup-bg{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    right:0;
+
+    .add-movie-popup{
+        width: 100%;
+        max-width: 600px;
+        position: absolute;
+        top: 100px;
+        left:50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 30px;
+
+        .popup-btns{
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            justify-content: right;
+        }
+    }
+}
